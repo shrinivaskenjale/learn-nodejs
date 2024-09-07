@@ -1,0 +1,13 @@
+GET http://localhost:5000/
+
+###
+
+GET http://localhost:5000/cars
+
+###
+
+GET http://localhost:5000/cars?page=3
+
+###
+
+GET http://localhost:5000/cars?page=something

@@ -1,0 +1,13 @@
+GET http://localhost:3000/products
+
+###
+
+POST http://localhost:3000/products/new
+Content-Type: application/json
+
+{
+    "title": "Jio", 
+    "price": 666, 
+    "imageUrl": "jio.jpg", 
+    "description": "This is the best network in India."
+}

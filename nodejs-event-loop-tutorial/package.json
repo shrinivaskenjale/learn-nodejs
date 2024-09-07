@@ -1,0 +1,12 @@
+{
+  "name": "event-loop-nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set UV_THREADPOOL_SIZE=2 & node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

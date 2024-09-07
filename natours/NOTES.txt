@@ -1,0 +1,16 @@
+===============
+API versioning
+===============
+Prefix the API endpoint routes with /api/<version> so that you can upgrade the api without breaking changes in the future.
+
+===============
+Jsend JSON response format
+===============
+The three components of a Jsend JSON response are status, data, and message2. The status field is used to indicate whether the request was successful or not. The data field contains the requested data if the request was successful. The message field is used to provide additional information about the request3.
+
+status: success, fail, and error
+data: This property is always an object which contains data to be sent.
+message: String.
+
+You can add additional fields which make sense for your applications.
+results: This contains number of records found if response data contains array.
